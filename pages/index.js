@@ -7,15 +7,15 @@ export default function Home() {
   return (
     <div className="text-black">
       <NextSeo
-        title="Home: nine4"
+        title="Mental Health Awareness"
         description="Welcome to nine4 homepage."
-        canonical="https://nine4-2.vercel.app/"
+        canonical="https://english-project-one.vercel.app/",
         openGraph={{
-          url: "https://nine4-2.vercel.app/",
+          url: "https://english-project-one.vercel.app/",
         }}
       />
       <Head>
-        <title>nine4</title>
+        <title>Mental Health Awareness</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
