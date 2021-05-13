@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <Header />
       <section className="text-gray-600 body-font">
-        <section className="bg-gradient-to-r from-green-100 via-purple-100 to-green-200 animate-gradient-x">
+        <section className="bg-green-100 md:bg-gradient-to-r md:from-green-100 md:via-purple-100 md:to-green-200 md:animate-gradient-x">
           <div className="max-w-7xl mx-auto flex px-5 py-44 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center">
               <h1 className="mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-gray-900">
