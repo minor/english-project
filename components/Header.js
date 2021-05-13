@@ -12,7 +12,8 @@ export default function Header() {
             className="text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline"
           >
             <h1 className="text-4xl Avenir tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
-              MHA
+              <img className="h-10 float-left" src="/bridge_black.svg" />
+              &nbsp;&nbsp;C2CMHA
             </h1>
           </a>
           <button
