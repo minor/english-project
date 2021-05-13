@@ -9,7 +9,7 @@ export default function Home() {
       <NextSeo
         title="Mental Health Awareness"
         description="Welcome to nine4 homepage."
-        canonical="https://english-project-one.vercel.app/",
+        canonical="https://english-project-one.vercel.app/"
         openGraph={{
           url: "https://english-project-one.vercel.app/",
         }}
