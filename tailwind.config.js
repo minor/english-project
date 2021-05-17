@@ -5,6 +5,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      spacing: {
+        120: "36rem",
+      },
       animation: {
         "gradient-x": "gradient-x 10s ease infinite",
         "gradient-y": "gradient-y 10s ease infinite",

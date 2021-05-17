@@ -23,15 +23,17 @@ export default function Home() {
         <section className="bg-green-100 md:bg-gradient-to-r md:from-green-100 md:via-purple-100 md:to-green-200 md:animate-gradient-x">
           <div className="py-9 bg-white"></div>
           <div className="max-w-7xl mx-auto flex px-5 py-32 md:flex-row flex-col items-center">
-            <div className="lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center">
+            <div className="lg:flex-grow md:w-1/2 md:ml-24 pt-6 pb-10 flex flex-col md:items-start md:text-left mb-10 items-center text-center">
               <h1 className="mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-gray-900">
                 Coast-to-Coast Mental Health Awareness
               </h1>
-              <p className="mb-4 xl:w-3/4 text-gray-600 text-lg">title ^^</p>
+              <p className="mb-4 xl:w-3/4 text-gray-600 text-lg">
+                Support our plan through your donation!
+              </p>
               <div className="flex justify-center">
                 <a
                   className="inline-flex items-center px-5 py-3 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
-                  href="https://github.com/r1/nine4-2/"
+                  href="#learnmore"
                 >
                   <span className="justify-center">Find out more</span>
                 </a>
@@ -39,9 +41,9 @@ export default function Home() {
             </div>
             <div className="xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10">
               <img
-                className="w-80 md:ml-1 ml-24"
-                alt="iPhone-12"
-                src="/images/iPhone-12-Mockup.png"
+                className="border-2 border-purple-500 rounded w-120 md:ml-10 ml-24"
+                alt="cover image"
+                src="/images/cover.png"
               ></img>
             </div>
           </div>
@@ -70,6 +72,7 @@ export default function Home() {
               <h1 className="mb-9 text-2xl font-semibold text-gray-600">
                 Here's the plan.
               </h1>
+              <img src=""></img>
               <p className="text-lg text-gray-800">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vestibulum malesuada nisl non orci fermentum consectetur. Ut
@@ -87,6 +90,12 @@ export default function Home() {
                 Donec elit massa, faucibus a tortor vel, egestas semper sem.
                 Aenean rutrum elementum scelerisque.
               </p>
+              <a
+                className="inline-flex items-center px-5 py-3 mt-6 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
+                href="/california"
+              >
+                <span className="justify-center">Read more!</span>
+              </a>
             </div>
           </div>
         </section>
@@ -116,6 +125,12 @@ export default function Home() {
                 Donec elit massa, faucibus a tortor vel, egestas semper sem.
                 Aenean rutrum elementum scelerisque.
               </p>
+              <a
+                className="inline-flex items-center px-5 py-3 mt-6 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
+                href="/newyork"
+              >
+                <span className="justify-center">Read more!</span>
+              </a>
             </div>
           </div>
         </section>

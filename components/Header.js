@@ -50,7 +50,7 @@ export default function Header() {
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <a
-                  href="#california"
+                  href="/california"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   California
@@ -58,7 +58,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#newyork"
+                  href="/newyork"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   New York
@@ -71,7 +71,7 @@ export default function Header() {
                 >
                   <span className="justify-center">Learn More</span>
                   <svg
-                    className="w-3 h-3 fill-current text-gray-400 flex ml-2 -mr-1"
+                    className="animate-pulse w-3 h-3 fill-current text-gray-400 flex ml-2 -mr-1"
                     viewBox="0 0 12 12"
                     xmlns="http://www.w3.org/2000/svg"
                   >
