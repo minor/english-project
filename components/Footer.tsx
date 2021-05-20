@@ -9,7 +9,31 @@ export default function Footer() {
                 href="#learnmore"
                 className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
-                Learn More
+                Plan
+              </a>
+            </li>
+            <li>
+              <a
+                href="#learnmore"
+                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
+              >
+                Help
+              </a>
+            </li>
+            <li>
+              <a
+                href="#learnmore"
+                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
+              >
+                Team
+              </a>
+            </li>
+            <li>
+              <a
+                href="#learnmore"
+                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
+              >
+                Contact
               </a>
             </li>
             <li>
