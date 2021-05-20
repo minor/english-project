@@ -1,13 +1,13 @@
 export default function Footer() {
   return (
     <footer className="pb-4">
-      <div className="max-w-6xl xl:max-w-6xl mx-auto divide-y divide-gray-200 px-4 sm:px-6 md:px-8">
-        <div className="flex flex-col-reverse justify-between pt-5 pb-4 border-t lg:flex-row bg-top border-black">
+      <div className="max-w-6xl px-4 mx-auto divide-y divide-gray-200 xl:max-w-6xl sm:px-6 md:px-8">
+        <div className="flex flex-col-reverse justify-between pt-5 pb-4 bg-top border-t border-black dark:border-white lg:flex-row">
           <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
               <a
                 href="#learnmore"
-                className="text-md text-black transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
                 Learn More
               </a>
@@ -15,7 +15,7 @@ export default function Footer() {
             <li>
               <a
                 href="#california"
-                className="text-md text-black transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
                 California
               </a>
@@ -23,7 +23,7 @@ export default function Footer() {
             <li>
               <a
                 href="#newyork"
-                className="text-md text-black transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
                 New York
               </a>
@@ -32,7 +32,7 @@ export default function Footer() {
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <a
               href="/"
-              className="text-md text-black transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold tracking-tight"
+              className="font-semibold tracking-tight text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
             >
               © 2021 English Class.
             </a>

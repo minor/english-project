@@ -1,8 +1,8 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: ["./components/**/*.js", "./pages/**/*.js"],
-  darkMode: false, // or 'media' or 'class'
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class", // or 'media' or 'class' -> class requires a "div classnName='dark' before activating darkmode"
   theme: {
     extend: {
       spacing: {
