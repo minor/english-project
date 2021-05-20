@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
+        88: "22rem",
         120: "36rem",
       },
       animation: {

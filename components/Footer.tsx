@@ -6,23 +6,7 @@ export default function Footer() {
           <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
               <a
-                href="#learnmore"
-                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
-              >
-                Plan
-              </a>
-            </li>
-            <li>
-              <a
-                href="#learnmore"
-                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
-              >
-                Help
-              </a>
-            </li>
-            <li>
-              <a
-                href="#learnmore"
+                href="#team"
                 className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
                 Team
@@ -30,10 +14,18 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="#learnmore"
+                href="/contact"
                 className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
                 Contact
+              </a>
+            </li>
+            <li>
+              <a
+                href="#FAQ"
+                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
+              >
+                FAQ
               </a>
             </li>
             <li>
@@ -58,7 +50,7 @@ export default function Footer() {
               href="/"
               className="font-semibold tracking-tight text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
             >
-              © 2021 English Class.
+              © 2021 C2CMHA.
             </a>
           </ul>
         </div>

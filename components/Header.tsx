@@ -62,23 +62,7 @@ export default function Header() {
             <ul className="flex flex-wrap items-center justify-end flex-grow">
               <li>
                 <a
-                  href="#plan"
-                  className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Plan
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/help"
-                  className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Help
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/team"
+                  href="#team"
                   className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Team
@@ -90,6 +74,14 @@ export default function Header() {
                   className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Contact
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#plan"
+                  className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                >
+                  FAQ
                 </a>
               </li>
               <div className="relative">

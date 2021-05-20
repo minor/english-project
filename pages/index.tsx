@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className="text-black">
       <NextSeo
-        title="Mental Health Awareness"
-        description="Welcome to nine4 homepage."
+        title="Coast to Coast Mental Health Awareness"
+        description="Coast to Coast Mental Health Awareness"
         canonical="https://english-project-one.vercel.app/"
         openGraph={{
           url: "https://english-project-one.vercel.app/",
@@ -131,6 +131,85 @@ export default function Home() {
               >
                 <span className="justify-center">Read more!</span>
               </a>
+            </div>
+          </div>
+        </section>
+        <section className="text-gray-600 body-font" id="team">
+          <div className="container px-5 mx-auto">
+            <div className="mb-20 text-center">
+              <h1 className="mb-5 text-6xl font-semibold text-gray-900 dark:text-gray-200 Avenir">
+                Our Team
+              </h1>
+              <h1 className="text-2xl font-semibold text-gray-600 dark:text-gray-300 mb-9">
+                Meet the team behind the plans.
+              </h1>
+              <div className="flex justify-center mt-6">
+                <div className="inline-flex w-16 h-1 bg-white rounded-full"></div>
+              </div>
+              <div className="container px-5 py-8 mx-auto">
+                <div className="flex flex-wrap -m-4">
+                  <div className="p-4 lg:w-1/4 md:w-1/2">
+                    <div className="flex flex-col items-center h-full text-center">
+                      <img
+                        alt="team"
+                        className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-88"
+                        src="./images/rex.jpeg"
+                      ></img>
+                      <div className="w-full">
+                        <h2 className="text-lg font-medium text-black dark:text-white title-font">
+                          Saurish
+                        </h2>
+                        <h3 className="mb-3 text-gray-500">Web Developer</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-4 lg:w-1/4 md:w-1/2">
+                    <div className="flex flex-col items-center h-full text-center">
+                      <img
+                        alt="team"
+                        className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-88"
+                        src="./images/rex.jpeg"
+                      ></img>
+                      <div className="w-full">
+                        <h2 className="text-lg font-medium text-black dark:text-white title-font">
+                          Maddie
+                        </h2>
+                        <h3 className="mb-3 text-gray-500">Web Developer</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-4 lg:w-1/4 md:w-1/2">
+                    <div className="flex flex-col items-center h-full text-center">
+                      <img
+                        alt="team"
+                        className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-88"
+                        src="./images/rex.jpeg"
+                      ></img>
+                      <div className="w-full">
+                        <h2 className="text-lg font-medium text-black dark:text-white title-font">
+                          Bryan
+                        </h2>
+                        <h3 className="mb-3 text-gray-500">Web Developer</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-4 lg:w-1/4 md:w-1/2">
+                    <div className="flex flex-col items-center h-full text-center">
+                      <img
+                        alt="team"
+                        className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-88"
+                        src="./images/rex.jpeg"
+                      ></img>
+                      <div className="w-full">
+                        <h2 className="text-lg font-medium text-black dark:text-white title-font">
+                          Anjali
+                        </h2>
+                        <h3 className="mb-3 text-gray-500">Web Developer</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
