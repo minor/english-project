@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 
@@ -62,23 +63,22 @@ export default function Header() {
             <ul className="flex flex-wrap items-center justify-end flex-grow">
               <li>
                 <a
-                  href="#team"
+                  href="/#team"
                   className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Team
                 </a>
               </li>
               <li>
-                <a
-                  href="/contact"
-                  className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Contact
-                </a>
+                <Link href="/contact">
+                  <a className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900">
+                    Contact
+                  </a>
+                </Link>
               </li>
               <li>
                 <a
-                  href="#plan"
+                  href="/#plan"
                   className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   FAQ

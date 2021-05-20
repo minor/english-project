@@ -6,7 +6,7 @@ export default function Footer() {
           <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
               <a
-                href="#team"
+                href="/#team"
                 className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
                 Team
@@ -22,7 +22,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="#FAQ"
+                href="/#FAQ"
                 className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
                 FAQ
@@ -30,7 +30,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="#california"
+                href="/california"
                 className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
                 California
@@ -38,7 +38,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="#newyork"
+                href="/newyork"
                 className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
                 New York
