@@ -154,7 +154,7 @@ export default function Home() {
                       <img
                         alt="team"
                         className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-88"
-                        src="./images/saurish.jpg"
+                        src="./images/saurish.JPG"
                       ></img>
                       <div className="w-full">
                         <h2 className="text-lg font-medium text-black dark:text-white title-font">
