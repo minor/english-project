@@ -24,7 +24,7 @@ export default function Home() {
           <div className="py-10"></div>
           <div className="flex flex-col items-center px-5 py-32 mx-auto max-w-7xl md:flex-row">
             <div className="flex flex-col items-center pt-6 pb-10 mb-10 text-center lg:flex-grow md:w-1/2 md:ml-24 md:items-start md:text-left">
-              <h1 className="items-center mb-5 text-5xl text-gray-900 sm:text-6xl Avenir xl:w-2/2">
+              <h1 className="items-center mb-5 text-5xl text-gray-900 sm:text-6xl xl:w-2/2">
                 Coast-to-Coast Mental Health Awareness
               </h1>
               <p className="mb-4 text-lg text-gray-600 xl:w-3/4">
@@ -50,10 +50,10 @@ export default function Home() {
           <div className="py-2"></div>
         </section>
         <div className="pt-20 mx-auto text-center grr max-w-7xl" id="learnmore">
-          <h1 className="mb-8 text-6xl font-semibold text-gray-900 dark:text-white Avenir">
+          <h1 className="mb-8 text-6xl font-semibold text-gray-900 dark:text-white">
             Learn more about our plans.
           </h1>
-          <h1 className="mb-8 text-2xl font-semibold text-center text-gray-600 dark:text-gray-300 Avenir">
+          <h1 className="mb-8 text-2xl font-semibold text-center text-gray-600 dark:text-gray-300">
             Here's some information about our plans.
           </h1>
           <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
@@ -67,7 +67,7 @@ export default function Home() {
         <section className="relative" id="california">
           <div className="max-w-6xl px-4 mx-auto text-center sm:px-6">
             <div className="py-12">
-              <h1 className="mb-5 text-6xl font-semibold text-gray-900 dark:text-gray-200 Avenir">
+              <h1 className="mb-5 text-6xl font-semibold text-gray-900 dark:text-gray-200">
                 California
               </h1>
               <h1 className="text-2xl font-semibold text-gray-600 dark:text-gray-300 mb-9">
@@ -103,7 +103,7 @@ export default function Home() {
         <section className="relative" id="newyork">
           <div className="max-w-6xl px-4 mx-auto text-center sm:px-6">
             <div className="py-24 md:py-36">
-              <h1 className="mb-5 text-6xl font-semibold text-gray-900 dark:text-gray-200 Avenir">
+              <h1 className="mb-5 text-6xl font-semibold text-gray-900 dark:text-gray-200">
                 New York
               </h1>
               <h1 className="text-2xl font-semibold text-gray-600 dark:text-gray-300 mb-9">
@@ -138,7 +138,7 @@ export default function Home() {
         <section className="text-gray-600 body-font" id="team">
           <div className="container px-5 mx-auto">
             <div className="mb-20 text-center">
-              <h1 className="mb-5 text-6xl font-semibold text-gray-900 dark:text-gray-200 Avenir">
+              <h1 className="mb-5 text-6xl font-semibold text-gray-900 dark:text-gray-200">
                 Our Team
               </h1>
               <h1 className="text-2xl font-semibold text-gray-600 dark:text-gray-300 mb-9">
@@ -211,7 +211,7 @@ export default function Home() {
           </div>
         </section>
         <section className="text-gray-600 body-font" id="faq">
-          <h1 className="mb-5 text-6xl font-semibold text-center text-gray-900 dark:text-gray-200 Avenir">
+          <h1 className="mb-5 text-6xl font-semibold text-center text-gray-900 dark:text-gray-200">
             FAQ
           </h1>
           <h1 className="text-2xl font-semibold text-center text-gray-600 dark:text-gray-300 mb-9">
