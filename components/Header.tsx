@@ -24,7 +24,7 @@ export default function Header() {
             href="/"
             className="text-lg font-semibold tracking-widest rounded-lg focus:outline-none focus:shadow-outline"
           >
-            <h1 className="text-4xl tracking-tighter text-gray-900 Avenir md:text-4x1 lg:text-3xl">
+            <h1 className="text-4xl tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
               <img className="float-left h-10" src="/bridge_black.svg" />
               &nbsp;&nbsp;C2CMHA
             </h1>
