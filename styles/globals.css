@@ -53,3 +53,19 @@ a {
   -webkit-filter: none;
   transition: 0.4s;
 }
+
+.fsac4 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 32px;
+}
+
+@media (min-width: 720px) {
+  .fsac4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.fkrr1 {
+  font-family: "Inter", sans-serif;
+}

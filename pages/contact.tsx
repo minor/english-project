@@ -17,7 +17,7 @@ export default function Contact() {
               Contact Us
             </h1>
             <p className="mx-auto text-base font-semibold leading-relaxed lg:w-2/3">
-              Contact us if you have any questions!
+              Contact us if you have any questions about our plans!
             </p>
           </div>
           <div className="mx-auto lg:w-1/2 md:w-2/3">

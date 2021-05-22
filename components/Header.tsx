@@ -61,29 +61,6 @@ export default function Header() {
         >
           <nav className="flex-col flex-grow ">
             <ul className="flex flex-wrap items-center justify-end flex-grow">
-              <li>
-                <a
-                  href="/#team"
-                  className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Team
-                </a>
-              </li>
-              <li>
-                <Link href="/contact">
-                  <a className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900">
-                    Contact
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="/#plan"
-                  className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  FAQ
-                </a>
-              </li>
               <div className="relative">
                 <button
                   type="button"
@@ -150,6 +127,29 @@ export default function Header() {
                   </div>
                 </div>
               </div>
+              <li>
+                <a
+                  href="/#team"
+                  className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                >
+                  Team
+                </a>
+              </li>
+              <li>
+                <Link href="/contact">
+                  <a className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900">
+                    Contact
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="/#faq"
+                  className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
+                >
+                  FAQ
+                </a>
+              </li>
               <li>
                 <button
                   aria-label="Toggle Dark Mode"

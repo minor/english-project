@@ -21,7 +21,7 @@ export default function Home() {
       <Header />
       <section className="text-gray-600 body-font">
         <section className="bg-green-100 md:bg-gradient-to-r md:dark:from-green-200 md:dark:via-purple-200 md:dark:to-green-200 md:from-green-100 md:via-purple-100 md:to-green-100 md:animate-gradient-xy">
-          <div className="py-9"></div>
+          <div className="py-10"></div>
           <div className="flex flex-col items-center px-5 py-32 mx-auto max-w-7xl md:flex-row">
             <div className="flex flex-col items-center pt-6 pb-10 mb-10 text-center lg:flex-grow md:w-1/2 md:ml-24 md:items-start md:text-left">
               <h1 className="items-center mb-5 text-5xl text-gray-900 sm:text-6xl Avenir xl:w-2/2">
@@ -41,12 +41,13 @@ export default function Home() {
             </div>
             <div className="mb-0 mr-48 xl:mr-44 sm:mr-0 sm:mb-28 lg:mb-0 md:pl-10">
               <img
-                className="ml-24 border-2 border-purple-500 rounded w-120 md:ml-10"
+                className="max-w-full ml-24 rounded w-120 md:ml-10"
                 alt="cover image"
-                src="/images/cover.png"
+                src="/images/thought.svg"
               ></img>
             </div>
           </div>
+          <div className="py-2"></div>
         </section>
         <div className="pt-20 mx-auto text-center grr max-w-7xl" id="learnmore">
           <h1 className="mb-8 text-6xl font-semibold text-gray-900 dark:text-white Avenir">
@@ -153,13 +154,12 @@ export default function Home() {
                       <img
                         alt="team"
                         className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-88"
-                        src="./images/rex.jpeg"
+                        src="./images/saurish.jpg"
                       ></img>
                       <div className="w-full">
                         <h2 className="text-lg font-medium text-black dark:text-white title-font">
                           Saurish
                         </h2>
-                        <h3 className="mb-3 text-gray-500">Web Developer</h3>
                       </div>
                     </div>
                   </div>
@@ -174,7 +174,6 @@ export default function Home() {
                         <h2 className="text-lg font-medium text-black dark:text-white title-font">
                           Maddie
                         </h2>
-                        <h3 className="mb-3 text-gray-500">Web Developer</h3>
                       </div>
                     </div>
                   </div>
@@ -189,7 +188,6 @@ export default function Home() {
                         <h2 className="text-lg font-medium text-black dark:text-white title-font">
                           Bryan
                         </h2>
-                        <h3 className="mb-3 text-gray-500">Web Developer</h3>
                       </div>
                     </div>
                   </div>
@@ -204,12 +202,61 @@ export default function Home() {
                         <h2 className="text-lg font-medium text-black dark:text-white title-font">
                           Anjali
                         </h2>
-                        <h3 className="mb-3 text-gray-500">Web Developer</h3>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="text-gray-600 body-font" id="faq">
+          <h1 className="mb-5 text-6xl font-semibold text-center text-gray-900 dark:text-gray-200 Avenir">
+            FAQ
+          </h1>
+          <h1 className="text-2xl font-semibold text-center text-gray-600 dark:text-gray-300 mb-9">
+            Here are the answers to some of the most frequently asked questions.
+          </h1>
+          <div className="max-w-4xl px-3 pt-8 pb-24 mx-auto fsac4 md:px-1">
+            <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
+              <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
+                What will we do with money?
+              </h3>
+              <p className="pt-2 text-gray-200 dark:text-black value-text text-md fkrr1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae
+                ante rutrum porttitor.
+              </p>
+            </div>
+            <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
+              <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
+                How can I help?
+              </h3>
+              <p className="pt-2 text-gray-200 dark:text-black value-text text-md fkrr1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae
+                ante rutrum porttitor.
+              </p>
+            </div>
+            <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
+              <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
+                Why is this a problem?
+              </h3>
+              <p className="pt-2 text-gray-200 dark:text-black value-text text-md fkrr1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae
+                ante rutrum porttitor.
+              </p>
+            </div>
+            <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
+              <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
+                What are common mental health disorders?
+              </h3>
+              <p className="pt-2 text-gray-200 value-text text-md dark:text-black fkrr1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae
+                ante rutrum porttitor.
+              </p>
             </div>
           </div>
         </section>
