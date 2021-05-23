@@ -8,10 +8,11 @@ export default function Home() {
     <div className="text-black">
       <NextSeo
         title="Coast to Coast Mental Health Awareness"
-        description="Coast to Coast Mental Health Awareness"
-        canonical="https://english-project-one.vercel.app/"
+        description="We create plans to solve the mental health crisis in New York and California."
+        canonical="https://c2cmha.vercel.app"
         openGraph={{
-          url: "https://english-project-one.vercel.app/",
+          url: "https://c2cmha.vercel.app",
+          images: [{ url: "/images/image.jpg" }],
         }}
       />
       <Head>
@@ -24,7 +25,7 @@ export default function Home() {
           <div className="py-10"></div>
           <div className="flex flex-col items-center px-5 py-32 mx-auto max-w-7xl md:flex-row">
             <div className="flex flex-col items-center pt-6 pb-10 mb-10 text-center lg:flex-grow md:w-1/2 md:ml-24 md:items-start md:text-left">
-              <h1 className="items-center mb-5 text-5xl text-gray-900 text-bold sm:text-6xl xl:w-2/2">
+              <h1 className="items-center mb-5 text-5xl font-bold text-gray-900 sm:text-6xl xl:w-2/2">
                 Coast-to-Coast Mental Health Awareness
               </h1>
               <p className="mb-4 text-lg text-gray-600 xl:w-3/4">
@@ -168,7 +169,7 @@ export default function Home() {
                       <img
                         alt="team"
                         className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-88"
-                        src="./images/rex.jpeg"
+                        src="./images/maddie.JPG"
                       ></img>
                       <div className="w-full">
                         <h2 className="text-lg font-medium text-black dark:text-white title-font">
@@ -182,7 +183,7 @@ export default function Home() {
                       <img
                         alt="team"
                         className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-88"
-                        src="./images/rex.jpeg"
+                        src="./images/bryan.jpeg"
                       ></img>
                       <div className="w-full">
                         <h2 className="text-lg font-medium text-black dark:text-white title-font">
@@ -196,7 +197,7 @@ export default function Home() {
                       <img
                         alt="team"
                         className="flex-shrink-0 object-cover object-center w-full mb-4 rounded-lg h-88"
-                        src="./images/rex.jpeg"
+                        src="./images/anjali.jpeg"
                       ></img>
                       <div className="w-full">
                         <h2 className="text-lg font-medium text-black dark:text-white title-font">

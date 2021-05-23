@@ -24,7 +24,7 @@ export default function Header() {
             href="/"
             className="text-lg font-semibold tracking-widest rounded-lg focus:outline-none focus:shadow-outline"
           >
-            <h1 className="text-4xl tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
+            <h1 className="text-4xl font-bold tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
               <img className="float-left h-10" src="/bridge_black.svg" />
               &nbsp;&nbsp;C2CMHA
             </h1>
@@ -68,7 +68,9 @@ export default function Header() {
                   "
                   onMouseEnter={() => (setFlyer(!flyer), setFlyerTwo(false))}
                 >
-                  <span className="tr04">Locations</span>
+                  <a href="/locations" className="tr04">
+                    Locations
+                  </a>
                   <svg
                     className={
                       flyer === true
