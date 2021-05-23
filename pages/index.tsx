@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/bridge.svg" />
       </Head>
       <Header />
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600">
         <section className="bg-green-100 md:bg-gradient-to-r md:dark:from-green-200 md:dark:via-purple-200 md:dark:to-green-200 md:from-green-100 md:via-purple-100 md:to-green-100 md:animate-gradient-xy">
           <div className="py-10"></div>
           <div className="flex flex-col items-center px-5 py-32 mx-auto max-w-7xl md:flex-row">
