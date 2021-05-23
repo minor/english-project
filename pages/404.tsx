@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function Error() {
   return (
-    <>
+    <div>
       <Head>
         <title>404 | Error</title>
         <link rel="icon" href="/bridge.svg" />
@@ -24,6 +24,6 @@ export default function Error() {
       </div>
       <div className="mt-64"></div>
       <Footer />
-    </>
+    </div>
   );
 }
