@@ -94,7 +94,7 @@ export default function Home() {
               </p>
               <a
                 className="inline-flex items-center px-5 py-3 mt-6 font-medium text-white transition duration-500 ease-in-out transform bg-transparent bg-gray-900 border rounded-lg dark:text-black dark:bg-white"
-                href="/california"
+                href="/locations/california"
               >
                 <span className="justify-center">Read more!</span>
               </a>
@@ -129,7 +129,7 @@ export default function Home() {
               </p>
               <a
                 className="inline-flex items-center px-5 py-3 mt-6 font-medium text-white transition duration-500 ease-in-out transform bg-transparent bg-gray-900 border rounded-lg dark:text-black dark:bg-white"
-                href="/newyork"
+                href="/locations/newyork"
               >
                 <span className="justify-center">Read more!</span>
               </a>
