@@ -7,16 +7,16 @@ export default function LocationsIndex() {
   return (
     <>
       <NextSeo
-        title="Locations | C2CMHA"
+        title="Locations: California | C2CMHA"
         description="Find the locations that we offer our services."
-        canonical="https://c2cmha.vercel.app/locations"
+        canonical="https://c2cmha.vercel.app/locations/california"
         openGraph={{
-          url: "https://c2cmha.vercel.app/locations",
+          url: "https://c2cmha.vercel.app/locations/california",
           images: [{ url: "/images/image.jpg" }],
         }}
       />
       <Head>
-        <title>Locations | C2CMHA</title>
+        <title>California | C2CMHA</title>
         <link rel="icon" href="/bridge.svg" />
       </Head>
       <Header />
@@ -27,7 +27,7 @@ export default function LocationsIndex() {
         <br />
         <br />
         <a
-          className="w-64 p-1 mx-auto font-bold text-center text-black border border-gray-500 rounded-lg from-indigo-100 via-red-100 to-yellow-100 bg-gradient-to-r dark:from-indigo-300 dark:via-red-300 dark:to-yellow-300 sm:p-4"
+          className="w-64 p-4 mx-auto font-bold text-center text-black border border-gray-500 rounded-lg from-indigo-100 via-red-100 to-yellow-100 bg-gradient-to-r dark:from-indigo-300 dark:via-red-300 dark:to-yellow-300"
           href="/locations/california"
         >
           California
@@ -35,7 +35,7 @@ export default function LocationsIndex() {
         <br />
         <br />
         <a
-          className="w-64 p-1 mx-auto mb-32 font-bold text-center text-black border border-gray-500 rounded-lg from-yellow-100 via-red-100 to-indigo-100 bg-gradient-to-r dark:from-yellow-300 dark:via-red-300 dark:to-indigo-300 sm:p-4"
+          className="w-64 p-4 mx-auto mb-32 font-bold text-center text-black border border-gray-500 rounded-lg from-yellow-100 via-red-100 to-indigo-100 bg-gradient-to-r dark:from-yellow-300 dark:via-red-300 dark:to-indigo-300 sm:p-4"
           href="/locations/newyork"
         >
           New York

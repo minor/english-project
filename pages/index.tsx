@@ -34,7 +34,7 @@ export default function Home() {
               <div className="flex justify-center">
                 <a
                   className="inline-flex items-center px-5 py-3 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent bg-gray-900 border rounded-lg"
-                  href="#learnmore"
+                  href="#learn"
                 >
                   <span className="justify-center">Find out more</span>
                 </a>
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="py-2"></div>
         </section>
-        <div className="pt-20 mx-auto text-center grr max-w-7xl" id="learnmore">
+        <div className="pt-20 mx-auto text-center grr max-w-7xl" id="learn">
           <h1 className="mb-8 text-6xl font-semibold text-gray-900 dark:text-white">
             Learn more about our plans.
           </h1>

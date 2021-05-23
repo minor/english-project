@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function Error() {
   return (
-    <div>
+    <>
       <Head>
         <title>404 | Error</title>
         <link rel="icon" href="/bridge.svg" />
@@ -16,14 +16,13 @@ export default function Error() {
         </h1>
         <br />
         <a
-          className="w-64 p-1 mx-auto font-bold text-center text-black border border-gray-500 rounded-lg from-indigo-100 via-red-100 to-yellow-100 bg-gradient-to-r dark:from-indigo-300 dark:via-red-300 dark:to-yellow-300 sm:p-4"
+          className="w-64 p-4 mx-auto mb-32 font-bold text-center text-black border border-gray-500 rounded-lg md:mb-64 from-indigo-100 via-red-100 to-yellow-100 bg-gradient-to-r dark:from-indigo-300 dark:via-red-300 dark:to-yellow-300"
           href="/"
         >
           Return Home
         </a>
       </div>
-      <div className="mt-64"></div>
       <Footer />
-    </div>
+    </>
   );
 }

@@ -189,7 +189,7 @@ export default function Header() {
               <li>
                 <a
                   className="inline-flex items-center px-4 py-2 mb-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent bg-gray-900 rounded-lg md:mt-2 text-md md:mt-0 md:ml-4"
-                  href="#learnmore"
+                  href="/#learn"
                 >
                   <span className="justify-center">Learn More</span>
                   <svg
