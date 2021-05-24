@@ -2,9 +2,12 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: "class", // or 'media' or 'class' -> class requires a "div classnName='dark' before activating darkmode"
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        sfgate: "url('/images/sf1.jpeg')",
+      }),
       spacing: {
         88: "22rem",
         120: "36rem",

@@ -221,42 +221,94 @@ export default function Home() {
           <div className="max-w-4xl px-3 pt-8 pb-24 mx-auto fsac4 md:px-1">
             <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
               <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
-                What will we do with money?
+                <span className="p-1 bg-teal-400 rounded dark:bg-teal-100">
+                  What will C2CMHA do with money?
+                </span>
               </h3>
               <p className="pt-2 text-gray-200 dark:text-black value-text text-md fkrr1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae
-                ante rutrum porttitor.
+                All donations and funds received by C2CMHA will be directed
+                towards{" "}
+                <span className="p-0.5 bg-yellow-400 rounded dark:bg-yellow-100">
+                  different outlets
+                </span>{" "}
+                to help increase awareness and decrease stigmatization. Funds
+                will help us{" "}
+                <span className="p-0.5 bg-yellow-400 rounded dark:bg-yellow-100">
+                  organize specialty events and spaces
+                </span>{" "}
+                at schools, offices, fairs, shows, and/or private vendors. A
+                bulk of donations will be dedicated to{" "}
+                <span className="p-0.5 bg-yellow-400 rounded dark:bg-yellow-100">
+                  creating physical items,
+                </span>{" "}
+                such as: clothing and stress balls. A portion of profits will be
+                used to cover travel expenses for speaker volunteers, in
+                addition to other{" "}
+                <span className="p-0.5 bg-yellow-400 rounded dark:bg-yellow-100">
+                  financial aid
+                </span>{" "}
+                to individuals who cannot afford medical care.
               </p>
             </div>
             <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
               <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
-                How can I help?
+                <span className="p-1 bg-teal-400 rounded dark:bg-yellow-100">
+                  How can I help?
+                </span>
               </h3>
               <p className="pt-2 text-gray-200 dark:text-black value-text text-md fkrr1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae
-                ante rutrum porttitor.
+                Fortunately, there are a few ways to help! The first possible
+                way is through{" "}
+                <span className="p-0.5 bg-yellow-400 rounded dark:bg-yellow-100">
+                  your donation
+                </span>{" "}
+                – any small amount will help our organization provide safe
+                spaces where people can openly discuss mental health, create
+                materials to educate the public, and provide financial aid to
+                individuals. The second is through{" "}
+                <span className="p-0.5 bg-yellow-400 rounded dark:bg-yellow-100">
+                  <span className="italic">your</span> education and personal
+                  research
+                </span>{" "}
+                to gain a better understanding of the many different disorders,
+                as well as the proper ways to interact with individuals with
+                those disorders. This would be a tremendous help in decreasing{" "}
+                <span className="font-bold">stigmatization</span> of depression
+                and mental health illnesses in your state.
               </p>
             </div>
             <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
               <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
-                Why is this a problem?
+                <span className="p-1 bg-teal-400 rounded dark:bg-teal-100">
+                  Why is this a problem?
+                </span>
               </h3>
               <p className="pt-2 text-gray-200 dark:text-black value-text text-md fkrr1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae
-                ante rutrum porttitor.
+                Especially in minority groups,{" "}
+                <span className="p-0.5 bg-yellow-400 rounded dark:bg-yellow-100">
+                  care and understanding of mental health is decreasing.
+                </span>{" "}
+                People tend to brush off mental health, not believe in its
+                importance, and continue to stigmatize these disorders. The
+                longer this continues,{" "}
+                <span className="p-0.5 bg-yellow-400 rounded dark:bg-yellow-100">
+                  the more people we will lose
+                </span>{" "}
+                to something completely manageable and preventable – all because
+                some are simply unaware of how valuable mental health is to
+                quality of life.
               </p>
             </div>
             <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
               <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
-                What are common mental health disorders?
+                <span className="p-1 bg-teal-400 rounded dark:bg-teal-100">
+                  What are common mental health disorders?
+                </span>
               </h3>
               <p className="pt-2 text-gray-200 value-text text-md dark:text-black fkrr1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae
-                ante rutrum porttitor.
+                In California and New York, the most common mental illnesses
+                continue to be depression, general anxiety (GAD), Post Traumatic
+                Stress Disorder (PTSD), Eating Disorders, and Bipolar Disorder.
               </p>
             </div>
           </div>

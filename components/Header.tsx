@@ -100,7 +100,7 @@ export default function Header() {
                   <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-white ring-opacity-5">
                     <div className="relative grid gap-6 px-2 py-6 bg-white sm:gap-8 ">
                       <a
-                        href="/california"
+                        href="/locations/california"
                         className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04"
                       >
                         <div className="ml-4">
@@ -113,7 +113,7 @@ export default function Header() {
                         </div>
                       </a>
                       <a
-                        href="/newyork"
+                        href="/locations/newyork"
                         className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04"
                       >
                         <div className="ml-4">
