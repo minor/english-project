@@ -21,16 +21,20 @@ export default function Home() {
       </Head>
       <Header />
       <section className="text-gray-600">
-        <div className="py-16"></div>
+        <div className="py-6 md:py-12"></div>
         <section className="h-full max-h-full bg-center bg-no-repeat bg-sfgate">
           <div className="flex flex-col items-center px-5 py-32 mx-auto max-w-7xl md:flex-row">
-            <div className="flex flex-col items-center pt-6 pb-10 mb-10 text-center lg:flex-grow md:w-1/2 md:ml-24 md:items-start md:text-left">
-              <h1 className="items-center mb-5 text-5xl font-bold text-gray-900 sm:text-6xl xl:w-2/2">
-                Here's our plan for California.
+            <div className="flex flex-col items-center pt-6 pb-10 mt-10 text-center lg:flex-grow md:w-1/2">
+              <h1 className="items-center mb-5 text-6xl font-bold text-gray-900 sm:text-6xl xl:w-2/2">
+                <span className="p-0.5 bg-yellow-100 leading-relaxed rounded">
+                  Here's our plan for California.
+                </span>
               </h1>
-              <p className="mb-4 text-lg text-gray-600 xl:w-3/4">
-                We're dedicated to providing the best plan for California – our
-                plan has been supported by many organizations, such as:
+              <p className="mb-4 text-xl font-medium text-gray-600 xl:w-3/4">
+                <span className="p-0.5 bg-indigo-100 leading-relaxed rounded">
+                  We're dedicated to providing the best plan for California –
+                  our plan has been supported by many organizations, such as:
+                </span>
               </p>
               <div className="flex justify-center">
                 <a
@@ -42,11 +46,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="py-24"></div>
+          <div className="py-4 md:py-12"></div>
         </section>
         <div className="pt-20 mx-auto text-center grr max-w-7xl" id="learn">
           <h1 className="mb-8 text-6xl font-semibold text-gray-900 dark:text-white">
-            Learn more about our plans.
+            Our plan puts the <span className="underline">~~</span> in happy.
           </h1>
           <h1 className="mb-8 text-2xl font-semibold text-center text-gray-600 dark:text-gray-300">
             Here's some information about our plans.
