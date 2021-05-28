@@ -8,6 +8,9 @@ module.exports = {
       backgroundImage: (theme) => ({
         sfgate: "url('/images/sf1.jpeg')",
       }),
+      boxShadow: {
+        "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+      },
       spacing: {
         88: "22rem",
         120: "36rem",
@@ -82,7 +85,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      filter: ["hover", "focus"],
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 };
