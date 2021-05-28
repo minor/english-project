@@ -102,9 +102,9 @@ export default function Home() {
             with rapid increases in substance usage and depressive symptoms
             across all age groups.
           </p>
-          <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
+          <div className="container flex flex-col items-center justify-center mx-auto rounded-lg md:m-0 ">
             <img
-              className="object-cover object-center w-1/2 mb-10 border border-black rounded-lg shadow-md dark:border-white"
+              className="object-cover object-center w-full mb-10 border border-black rounded-lg shadow-md md:w-1/2 dark:border-white"
               alt="Statistics Image"
               src="/images/19v20.png"
             ></img>
@@ -121,7 +121,7 @@ export default function Home() {
               </h1>
               <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
                 <img
-                  className="object-cover object-center w-1/2 mb-10 rounded shadow-3xl"
+                  className="object-cover object-center w-full mb-10 rounded md:w-1/2 shadow-3xl"
                   alt="Golden Gate Bridge Image"
                   src="/images/sf2.jpeg"
                 ></img>
@@ -157,7 +157,7 @@ export default function Home() {
               </h1>
               <div className="container flex flex-col items-center justify-center mx-auto">
                 <img
-                  className="object-cover object-center w-1/2 mb-10 rounded shadow-3xl"
+                  className="object-cover object-center w-full mb-10 rounded md:w-1/2 shadow-3xl"
                   alt="Brooklyn Bridge Image"
                   src="/images/bb1.jpeg"
                 ></img>
