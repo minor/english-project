@@ -70,6 +70,7 @@ module.exports = {
           700: "#4C4C4C",
           800: "#333333",
           900: "#191919",
+          background: "#131313",
         },
         fuchsia: colors.fuchsia,
         orange: colors.orange,

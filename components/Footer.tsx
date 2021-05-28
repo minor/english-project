@@ -6,6 +6,22 @@ export default function Footer() {
           <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
               <a
+                href="/locations/california"
+                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
+              >
+                California
+              </a>
+            </li>
+            <li>
+              <a
+                href="/locations/newyork"
+                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
+              >
+                New York
+              </a>
+            </li>
+            <li>
+              <a
                 href="/#team"
                 className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
@@ -22,26 +38,10 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="/#FAQ"
+                href="/#faq"
                 className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
               >
                 FAQ
-              </a>
-            </li>
-            <li>
-              <a
-                href="/california"
-                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
-              >
-                California
-              </a>
-            </li>
-            <li>
-              <a
-                href="/newyork"
-                className="font-semibold text-black transition-colors duration-300 dark:text-white text-md hover:text-deep-purple-accent-400"
-              >
-                New York
               </a>
             </li>
           </ul>
