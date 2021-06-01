@@ -100,7 +100,7 @@ export default function Home() {
                 1 in 5
               </span>{" "}
               New Yorkers have symptoms of a mental disorder, according to the
-              New York state Department of Health. Not being able to recognize
+              New York State Department of Health. Not being able to recognize
               the symptoms of a disorder is an{" "}
               <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
                 obstacle
@@ -186,15 +186,15 @@ export default function Home() {
             <img
               className="object-cover object-center w-full mb-6 rounded shadow-2xl md:w-1/2"
               alt="Statistics Image"
-              src="https://www.ppic.org/wp-content/uploads/covid-19s-toll-on-mental-health-figure-1.png"
+              src="https://static01.nyt.com/images/2020/03/11/learning/TeenIssuesGraphLN/TeenIssuesGraphLN-jumbo.png?quality=90&auto=webp"
             ></img>
             <a
-              href="https://www.ppic.org/blog/covid-19s-toll-on-mental-health/"
+              href="https://www.pewresearch.org/social-trends/2019/02/20/most-u-s-teens-see-anxiety-and-depression-as-a-major-problem-among-their-peers/"
               className="w-full mb-12 text-blue-600 underline md:w-1/3 dark:text-blue-500"
               target="_blank"
             >
-              A histogram exhibiting the rise of anxiety/depressive disorder
-              symptoms in Californian adults
+              A histogram exhibiting the stigmatization of depression and
+              different disorders
             </a>
           </div>
         </div>
@@ -219,14 +219,14 @@ export default function Home() {
               mental health crisis was already worsening. New York was heavily
               affected by the pandemic and was not only struggling with the
               economic effects but also the psychological effects on its
-              inhabitants. In May of 2020, more than ⅓ of NY adults had severe
-              symptoms of psychological disorders. These numbers were nearly 3
-              times worse than numbers from national findings pre-pandemic. The
-              pandemic took away the already limited access many had to
-              treatment and caused severe distress leading to undiagnosed
-              illnesses. As the state of New York recovers, it is equally as
-              important for the people to recover. Due to the spike in
-              psychological suffering, stigma around mental health has also
+              inhabitants. In May of 2020, more than one third of NY adults had
+              severe symptoms of psychological disorders. These numbers were
+              nearly 3 times worse than numbers from national findings
+              pre-pandemic. The pandemic took away the already limited access
+              many had to treatment and caused severe distress leading to
+              undiagnosed illnesses. As the state of New York recovers, it is
+              equally as important for the people to recover. Due to the spike
+              in psychological suffering, stigma around mental health has also
               worsened. Combating stigma is what New York needs to
               comprehensively heal. Becoming aware of symptoms, and raising
               awareness is an extremely beneficial way to battle the stigma.
@@ -234,16 +234,15 @@ export default function Home() {
             <img
               className="object-cover object-center w-full mb-6 rounded shadow-2xl md:w-1/2"
               alt="Statistics Image"
-              src="/images/fig.png"
+              src="https://lh3.googleusercontent.com/OUa5fcZYr0JYCdEsfRVdkuqdD_HpDIPuHXd_uxfP3UL-cYgRDke1MGRB9ZdthNc47Bh_s3QxOF5tgRyFyiO25Xse_SA6Yxw96XfAAnuGZT5_ZgLi3P-ZSzjP5fVU6PTCpai0MZsA"
             ></img>
             <a
-              href="http://doi.org/10.1001/jamanetworkopen.2020.19686"
+              href="https://www1.nyc.gov/assets/doh/downloads/pdf/survey/depression.pdf"
               className="w-full mb-12 text-blue-600 underline md:w-1/3 dark:text-blue-500"
               target="_blank"
             >
-              The rise of <strong>moderately severe</strong> and{" "}
-              <strong>severe</strong> cases represents a <strong>big</strong>{" "}
-              problem in California
+              The 2016 CHS shows that over half of NY adults with depression
+              received no treatment or counseling (62%).
             </a>
           </div>
           <div className="container flex flex-col items-center justify-center px-4 mx-auto rounded-lg md:m-0 "></div>
@@ -261,44 +260,101 @@ export default function Home() {
             <p className="w-full mb-10 text-xl text-left text-gray-800 md:w-1/2 dark:text-gray-300">
               <ul className="ml-5 list-disc">
                 <li className="my-3">
-                  According to California Health Care Almanac Mental Health
-                  Care, approximately <strong>1 in 20</strong> suffer from a
-                  serious mental illness that makes it difficult to carry out
-                  major life activities.
+                  We build spaces in stress prone environments for people to{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    learn about
+                  </span>{" "}
+                  their mental health, as well as how to{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    take care
+                  </span>{" "}
+                  of it. In the workplace, we offer{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    educational clinics
+                  </span>{" "}
+                  and areas for people to share. On college campuses, we present{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    lectures
+                  </span>{" "}
+                  and materials to inform and provide a comfortable space for
+                  everyone. With this method, people know they{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    are not wrong
+                  </span>
+                  , they{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    are not alone
+                  </span>
+                  , and that they{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    can speak up
+                  </span>
+                  .
                 </li>
                 <li className="my-3">
-                  Federal & state laws, Medi-Cal eligibility, and a scope of
-                  mental health services have made services available to more
-                  adults. Public & private companies have created resources to
-                  expand care, integrate health care, and end the toxic stigma.{" "}
-                  <strong>Nonetheless</strong>, mental illnesses continue to
-                  rise, and adult Californians <strong>still</strong> do not
-                  receive treatment for their mental wellbeing – and to top
-                  this, many have poor overall health.
+                  We host{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    speciality events
+                  </span>{" "}
+                  for any occasion, dedicated on educating and promoting overall
+                  mental wellbeing. We’ll answer any question, debunk myths,
+                  provide safe places for everyone, and help the audience learn
+                  how to{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    end the shame
+                  </span>{" "}
+                  around mental illness. We can help everyone, everywhere, speak
+                  up to know that they are not making it up in their head.
                 </li>
                 <li className="my-3">
-                  About <strong>two thirds</strong> of adults with major
-                  depressive episodes did not get treatment in California
+                  We create{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    physical materials
+                  </span>{" "}
+                  for everyone to learn, support, and spread the message. From
+                  weekly newsletters on helpful tips and science regarding
+                  mental health, to comfortable clothing pieces that show
+                  positive messages, we have it.{" "}
+                  <strong>We live to spread and help others live.</strong>
                 </li>
                 <li className="my-3">
-                  Suicides are still the <strong>second</strong> leading cause
-                  of death.
+                  We make{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    appointments
+                  </span>{" "}
+                  with state and community lawmakers, advocating for mental
+                  health awareness and asking for their help in{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    changing the stigmatized climate
+                  </span>{" "}
+                  engulfing conversations on mental wellbeing. Because,{" "}
+                  <strong>change needs to be at every level.</strong>
+                </li>
+                <li className="my-3">
+                  We provide{" "}
+                  <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
+                    financial aid
+                  </span>{" "}
+                  to adults who cannot afford medical expenses regarding their
+                  mental wellbeing. <strong>No one will be left behind.</strong>
                 </li>
               </ul>
+              <h1 className="mb-8 text-xl font-bold text-center text-gray-600 underline dark:text-gray-300">
+                So, help us help you.
+              </h1>
             </p>
             <img
               className="object-cover object-center w-full mb-6 rounded shadow-2xl md:w-1/2"
               alt="Statistics Image"
-              src="/images/fig.png"
+              src="https://www.kff.org/wp-content/uploads/2021/05/NY-89e3f5299103d6d1b7e1d3027e9b8a14.png"
             ></img>
             <a
-              href="http://doi.org/10.1001/jamanetworkopen.2020.19686"
+              href="https://www.kff.org/statedata/mental-health-and-substance-use-state-fact-sheets/new-york"
               className="w-full mb-12 text-blue-600 underline md:w-1/3 dark:text-blue-500"
               target="_blank"
             >
-              The rise of <strong>moderately severe</strong> and{" "}
-              <strong>severe</strong> cases represents a <strong>big</strong>{" "}
-              problem in California
+              New York is seeing massive numbers of individuals not getting the
+              resources they need for their disorders.
             </a>
           </div>
           <div className="container flex flex-col items-center justify-center px-4 mx-auto rounded-lg md:m-0 "></div>
@@ -335,111 +391,68 @@ export default function Home() {
             <img
               className="object-cover object-center w-full mb-6 rounded shadow-2xl md:w-1/2"
               alt="Statistics Image"
-              src="https://www.kff.org/wp-content/uploads/2021/05/CA-ff6e2d06dd50c05e771d3649b383f97f.png"
+              src="https://lh3.googleusercontent.com/RryDOx4fUZoDc3ltUoOLfZzpxQnKynQXJCpf8OZ1T0GSWYEjFWwdLlo4SiiOCrjhFfoS6mL0LptT_04-AZe6b4-tj4qWPuIjuLnc1Ft4aejOjXkRH5XqxcnLokgSiVIugBId52YS"
             ></img>
             <a
-              href="https://www.kff.org/statedata/mental-health-and-substance-use-state-fact-sheets/california"
+              href="https://healthpolicy.usc.edu/wp-content/uploads/2018/07/NY-Facts-and-Figures.pdf"
               className="w-full mb-12 text-blue-600 underline md:w-1/3 dark:text-blue-500"
               target="_blank"
             >
-              The rise of <strong>moderately severe</strong> and{" "}
-              <strong>severe</strong> cases represents a <strong>big</strong>{" "}
-              problem in California
+              The number of adults suffering from mental health disorders
+              (according to the USC Schaeffer company).
             </a>
             <img
               className="object-cover object-center w-full mb-6 rounded shadow-2xl md:w-1/2"
               alt="Statistics Image"
-              src="https://assets.website-files.com/5f16235b684d744cedb3ab00/5f56e95c23360e413434f448_d41586-020-00296-x_17665078.jpeg"
+              src="https://www.amny.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-08-at-10.26.25-AM.jpg"
             ></img>
             <a
-              href="https://www.samhsa.gov/data/report/2018-nsduh-detailed-tables"
+              href="https://www.amny.com/news/new-yorks-mental-health-crisis-during-covid-19-pandemic-impacting-people-of-color-at-higher-rates-report/"
               className="w-full mb-12 text-blue-600 underline md:w-1/3 dark:text-blue-500"
               target="_blank"
             >
-              The rise of <strong>moderately severe</strong> and{" "}
-              <strong>severe</strong> cases represents a <strong>big</strong>{" "}
-              problem in California
+              New York has seen a massive surge in depressive symptoms.
             </a>
             <img
               className="object-cover object-center w-full mb-6 rounded shadow-2xl md:w-1/2"
               alt="Statistics Image"
-              src="https://www.kff.org/wp-content/uploads/2021/05/CA-241ea49107509a8ddecc626f6d7e51d8.png"
+              src="https://www.amny.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-08-at-10.26.52-AM.jpg"
             ></img>
             <a
-              href="https://www.kff.org/statedata/mental-health-and-substance-use-state-fact-sheets/california"
+              href="https://www.amny.com/news/new-yorks-mental-health-crisis-during-covid-19-pandemic-impacting-people-of-color-at-higher-rates-report/"
               className="w-full mb-12 text-blue-600 underline md:w-1/3 dark:text-blue-500"
               target="_blank"
             >
-              The rise of <strong>moderately severe</strong> and{" "}
-              <strong>severe</strong> cases represents a <strong>big</strong>{" "}
-              problem in California
+              It's not just with one race either – it's spread out pretty
+              evenly.
             </a>
             <img
               className="object-cover object-center w-full mb-6 rounded shadow-2xl md:w-1/2"
               alt="Statistics Image"
-              src="https://www.kff.org/wp-content/uploads/2021/05/CA-e4d1a1b3386cdf3bc1c81f594f5b194b.png"
+              src="https://www.kff.org/wp-content/uploads/2021/05/NY-52f1be84b4e0106ff40fe29e60f57b00.png"
             ></img>
             <a
-              href="https://www.kff.org/statedata/mental-health-and-substance-use-state-fact-sheets/california"
+              href="https://www.kff.org/statedata/mental-health-and-substance-use-state-fact-sheets/new-york"
               className="w-full mb-12 text-blue-600 underline md:w-1/3 dark:text-blue-500"
               target="_blank"
             >
-              The rise of <strong>moderately severe</strong> and{" "}
-              <strong>severe</strong> cases represents a <strong>big</strong>{" "}
-              problem in California
+              Although the levels are still high, New York has been having a
+              great recovery from the pandemic
+            </a>
+            <img
+              className="object-cover object-center w-full mb-6 rounded shadow-2xl md:w-1/2"
+              alt="Statistics Image"
+              src="https://www.kff.org/wp-content/uploads/2021/05/NY-eca641d27796716d4bce8e91cd98fc7d.png"
+            ></img>
+            <a
+              href="https://www.kff.org/statedata/mental-health-and-substance-use-state-fact-sheets/new-york"
+              className="w-full mb-12 text-blue-600 underline md:w-1/3 dark:text-blue-500"
+              target="_blank"
+            >
+              We have to <strong>protect</strong> individuals from overdoses.
             </a>
           </div>
           <div className="container flex flex-col items-center justify-center px-4 mx-auto rounded-lg md:m-0 "></div>
-        </div>
-      </section>
-      <section className="text-gray-600 body-font" id="faq">
-        <h1 className="mb-5 text-6xl font-semibold text-center text-gray-900 dark:text-gray-200">
-          FAQ
-        </h1>
-        <h1 className="text-2xl font-semibold text-center text-gray-600 dark:text-gray-300 mb-9">
-          Here are the answers to some of the most frequently asked questions.
-        </h1>
-        <div className="max-w-4xl px-3 pt-8 pb-24 mx-auto fsac4 md:px-1">
-          <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
-            <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
-              What will we do with money?
-            </h3>
-            <p className="pt-2 text-gray-200 dark:text-black value-text text-md fkrr1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-              porttitor.
-            </p>
-          </div>
-          <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
-            <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
-              How can I help?
-            </h3>
-            <p className="pt-2 text-gray-200 dark:text-black value-text text-md fkrr1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-              porttitor.
-            </p>
-          </div>
-          <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
-            <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
-              Why is this a problem?
-            </h3>
-            <p className="pt-2 text-gray-200 dark:text-black value-text text-md fkrr1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-              porttitor.
-            </p>
-          </div>
-          <div className="p-8 bg-black rounded-lg dark:bg-gray-200">
-            <h3 className="pt-3 text-lg font-semibold text-white dark:text-black">
-              What are common mental health disorders?
-            </h3>
-            <p className="pt-2 text-gray-200 value-text text-md dark:text-black fkrr1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-              porttitor.
-            </p>
-          </div>
         </div>
       </section>
       <Footer />

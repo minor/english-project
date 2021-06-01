@@ -101,8 +101,8 @@ export default function Home() {
           </h1>
           <section className="text-gray-600 dark:text-gray-400 body-font">
             <div className="container px-5 py-10 mx-auto mt-5">
-              <div className="flex flex-wrap -m-4 text-center">
-                <div className="w-1/2 p-4">
+              <div className="flex flex-wrap justify-center -m-4 text-center">
+                <div className="w-1/3 p-4">
                   <h2 className="text-3xl font-medium text-black dark:text-white title-font sm:text-5xl">
                     <CountUp end={41.5} redraw={true}>
                       {({ countUpRef, start }) => (
@@ -117,7 +117,7 @@ export default function Home() {
                     with symptoms of anxiety and/or depression
                   </p>
                 </div>
-                <div className="w-1/2 p-4">
+                <div className="w-1/3 p-4">
                   <h2 className="text-3xl font-medium text-black dark:text-white title-font sm:text-5xl">
                     <CountUp end={11.7} redraw={true}>
                       {({ countUpRef, start }) => (
@@ -208,7 +208,7 @@ export default function Home() {
             ></img>
             <a
               href="https://www.kff.org/coronavirus-covid-19/issue-brief/the-implications-of-covid-19-for-mental-health-and-substance-use/"
-              className="w-full mb-12 text-blue-600 underline md:w-1/3 dark:text-blue-500"
+              className="w-full mb-12 text-lg text-blue-600 underline md:w-1/3 dark:text-blue-500"
               target="_blank"
             >
               A histogram exhibiting the rise of anxiety/depressive disorder
@@ -470,7 +470,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center mt-6">
-              <div className="inline-flex w-16 h-1 mb-8 bg-black rounded-full"></div>
+              <div className="inline-flex w-16 h-1 mb-8 bg-black rounded-full dark:bg-gray-200"></div>
             </div>
             <div className="grid grid-cols-2 gap-16 mt-2 mb-16 text-center md:mr-10 lg:grid-cols-4">
               <div className="flex items-center justify-center">
