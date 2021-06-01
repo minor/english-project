@@ -20,15 +20,14 @@ export default function Header() {
     <div className="fixed top-0 z-30 w-full transition duration-300 ease-in-out clearNav md:bg-opacity-90">
       <div className="flex flex-col max-w-6xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div className="flex flex-row items-center justify-between p-4">
-          <a
-            href="/"
-            className="text-lg font-semibold tracking-widest rounded-lg focus:outline-none focus:shadow-outline"
-          >
-            <h1 className="text-4xl font-bold tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
-              <img className="float-left h-10" src="/bridge_black.svg" />
-              &nbsp;&nbsp;C2CMHA
-            </h1>
-          </a>
+          <Link href="/">
+            <a className="text-lg font-semibold tracking-widest rounded-lg focus:outline-none focus:shadow-outline">
+              <h1 className="text-4xl font-bold tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
+                <img className="float-left h-10" src="/bridge_black.svg" />
+                &nbsp;&nbsp;C2CMHA
+              </h1>
+            </a>
+          </Link>
           <button
             className="px-3 py-1 leading-none text-white outline-none cursor-pointer md:hidden focus:outline-none "
             type="button"
@@ -75,7 +74,7 @@ export default function Header() {
                     className={
                       flyer === true
                         ? "transform rotate-180 ml-3 h-5 w-5 transition ease-out duration-200"
-                        : "ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
+                        : "ml-2 h-5 w-5 text-gray-600 group-hover:text-gray-900"
                     }
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
@@ -99,43 +98,40 @@ export default function Header() {
                 >
                   <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-white ring-opacity-5">
                     <div className="relative grid gap-6 px-2 py-6 bg-white sm:gap-8 ">
-                      <a
-                        href="/locations/california"
-                        className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04"
-                      >
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-black">
-                            California
-                          </p>
-                          <p className="mt-1 text-sm text-gray-500">
-                            Check out our plan for California!
-                          </p>
-                        </div>
-                      </a>
-                      <a
-                        href="/locations/newyork"
-                        className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04"
-                      >
-                        <div className="ml-4">
-                          <p className="text-base font-medium text-black">
-                            New York
-                          </p>
-                          <p className="mt-1 text-sm text-gray-500">
-                            Check out our plan for New York!
-                          </p>
-                        </div>
-                      </a>
+                      <Link href="/locations/california">
+                        <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                          <div className="ml-4">
+                            <p className="text-base font-medium text-black">
+                              California
+                            </p>
+                            <p className="mt-1 text-sm text-gray-500">
+                              Check out our plan for California!
+                            </p>
+                          </div>
+                        </a>
+                      </Link>
+                      <Link href="/locations/newyork">
+                        <a className="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-200 tr04">
+                          <div className="ml-4">
+                            <p className="text-base font-medium text-black">
+                              New York
+                            </p>
+                            <p className="mt-1 text-sm text-gray-500">
+                              Check out our plan for New York!
+                            </p>
+                          </div>
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
               <li>
-                <a
-                  href="/#team"
-                  className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  Team
-                </a>
+                <Link href="/#team">
+                  <a className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900">
+                    Team
+                  </a>
+                </Link>
               </li>
               <li>
                 <Link href="/contact">
@@ -145,12 +141,11 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <a
-                  href="/#faq"
-                  className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
-                >
-                  FAQ
-                </a>
+                <Link href="/#faq">
+                  <a className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900">
+                    FAQ
+                  </a>
+                </Link>
               </li>
               <li>
                 <button

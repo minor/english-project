@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
+import React from "react";
 import Footer from "../components/Footer";
 import { NextSeo } from "next-seo";
 
@@ -83,31 +86,134 @@ export default function Home() {
         </section>
         <div className="mx-auto text-center max-w-7xl" id="learn">
           <h1 className="mb-8 text-5xl font-semibold text-gray-900 md:text-5xl md:text-6xl dark:text-white">
-            The problem – it's bigger than we think.
+            The problem is bigger than we think.
           </h1>
           <h1 className="mb-8 text-2xl font-semibold text-center text-gray-600 dark:text-gray-300">
             Over{" "}
             <a
-              href="http://dx.doi.org/10.15585/mmwr.mm6932a1"
+              href="http://dx.doi.org/10.15585/mmwr.mm7013e2"
               className="text-blue-600 underline dark:text-blue-500"
               target="_blank"
             >
-              1 in 4 Americans
+              2 in 5 Americans
             </a>{" "}
             experienced mental illness this past year.
           </h1>
-          <p className="mb-10 text-xl text-gray-800 dark:text-gray-400">
-            {" "}
-            The novel coronavirus pandemic was <strong>devastating</strong>,
-            with rapid increases in substance usage and depressive symptoms
-            across all age groups.
-          </p>
-          <div className="container flex flex-col items-center justify-center mx-auto rounded-lg md:m-0 ">
+          <section className="text-gray-600 dark:text-gray-400 body-font">
+            <div className="container px-5 py-10 mx-auto mt-5">
+              <div className="flex flex-wrap -m-4 text-center">
+                <div className="w-1/2 p-4">
+                  <h2 className="text-3xl font-medium text-black dark:text-white title-font sm:text-5xl">
+                    <CountUp end={41.5} redraw={true}>
+                      {({ countUpRef, start }) => (
+                        <VisibilitySensor onChange={start} delayedCall>
+                          <span ref={countUpRef} />
+                        </VisibilitySensor>
+                      )}
+                    </CountUp>
+                    %
+                  </h2>
+                  <p className="mt-1 leading-relaxed md:mt-0">
+                    with symptoms of anxiety and/or depression
+                  </p>
+                </div>
+                <div className="w-1/2 p-4">
+                  <h2 className="text-3xl font-medium text-black dark:text-white title-font sm:text-5xl">
+                    <CountUp end={11.7} redraw={true}>
+                      {({ countUpRef, start }) => (
+                        <VisibilitySensor onChange={start} delayedCall>
+                          <span ref={countUpRef} />
+                        </VisibilitySensor>
+                      )}
+                    </CountUp>
+                    %
+                  </h2>
+                  <p className="mt-1 leading-relaxed md:mt-0">
+                    with unmet mental health care needs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div className="container flex flex-col items-center justify-center px-4 mx-auto rounded-lg md:m-0 ">
+            <p className="w-full mb-10 text-xl text-center text-gray-800 md:w-1/2 dark:text-gray-300">
+              {" "}
+              The novel coronavirus pandemic was <strong>devastating</strong>,
+              with rapid increases in substance usage and depressive symptoms
+              across all age groups. America saw one of the largest surges in
+              these symptoms than any other country. However, although the
+              national level of these symptoms and disorders has drastically
+              increased, the original stigmatization has remained the{" "}
+              <strong>same</strong> –{" "}
+              <a
+                href="https://doi.org/10.1037/cbs0000224"
+                className="text-blue-600 underline dark:text-blue-500"
+                target="_blank"
+              >
+                workplace discrimination & stigmatization
+              </a>
+              ,{" "}
+              <a
+                href="https://www.jmir.org/2020/4/e16470/"
+                className="text-blue-600 underline dark:text-blue-500"
+                target="_blank"
+              >
+                rude comments on social media
+              </a>
+              , or{" "}
+              <a
+                href="https://www.sciencedirect.com/science/article/pii/S0165032720330032"
+                className="text-blue-600 underline dark:text-blue-500"
+                target="_blank"
+              >
+                unsensitivity to people on anti-depressants
+              </a>{" "}
+              has consisted to be prevalent.
+              <br />
+              <br />
+              But, education can help:{" "}
+              <a
+                href="https://journals.sagepub.com/doi/abs/10.1177/0020764020985545"
+                className="text-blue-600 underline dark:text-blue-500"
+                target="_blank"
+              >
+                a study
+              </a>{" "}
+              (
+              <a
+                href="https://www.sciencedirect.com/science/article/pii/S1876201821000575"
+                className="text-blue-600 underline dark:text-blue-500"
+                target="_blank"
+              >
+                and another
+              </a>
+              ,{" "}
+              <a
+                href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7837092/"
+                className="text-blue-600 underline dark:text-blue-500"
+                target="_blank"
+              >
+                and one more for good measure
+              </a>
+              ) analyzed the effects of education of these disorders on
+              stigmatization and found a drastic decrease as people go through
+              more education. C2CMHA is dedicated to providing this education,
+              as well as tangible items to help support our community. Check out
+              our individual plans to learn more information!
+            </p>
             <img
-              className="object-cover object-center w-full mb-10 border border-black rounded-lg shadow-md md:w-1/2 dark:border-white"
+              className="object-cover object-center w-full mb-6 rounded shadow-2xl md:w-1/2"
               alt="Statistics Image"
               src="/images/19v20.png"
             ></img>
+            <a
+              href="https://www.kff.org/coronavirus-covid-19/issue-brief/the-implications-of-covid-19-for-mental-health-and-substance-use/"
+              className="w-full mb-12 text-blue-600 underline md:w-1/3 dark:text-blue-500"
+              target="_blank"
+            >
+              A histogram exhibiting the rise of anxiety/depressive disorder
+              symptoms due to COVID-19
+            </a>
           </div>
         </div>
         <section className="relative" id="california">
@@ -126,7 +232,7 @@ export default function Home() {
                   src="/images/sf2.jpeg"
                 ></img>
               </div>
-              <p className="text-lg text-gray-800 dark:text-gray-400">
+              <p className="text-lg text-gray-800 dark:text-gray-300">
                 California is one of the most populated states in the US, with
                 an even higher population of adults with mental illnesses.
                 Amidst the growing numbers, many just feel like a statistic.{" "}
@@ -162,15 +268,15 @@ export default function Home() {
                   src="/images/bb1.jpeg"
                 ></img>
               </div>
-              <p className="text-lg text-gray-800 dark:text-gray-400">
-                With New York city life absorbed by finance, social trends, and
-                physical health, mental wellbeing continues to be forgotten. All
-                while mental illness cases rise exponentially. No one is alone
-                in their mental health struggles, even if it may seem like you
-                are ignored. <strong>But you matter.</strong> We aim to combat
-                the sudden surge by giving people in a typically stressful
-                environment a place to speak out, providing items that spread
-                the right information and awareness, and finally granting
+              <p className="text-lg text-gray-800 dark:text-gray-300">
+                With New York City life absorbed by finance, social trends, and
+                physical health, mental wellbeing continues to be forgotten –
+                all while mental illness cases rise exponentially. No one is
+                alone in their mental health struggles, even if it may seem like
+                you are ignored. <strong>But you matter.</strong> We aim to
+                combat the sudden surge by giving people in a typically
+                stressful environment a place to speak out, providing items that
+                spread the right information and awareness, and finally granting
                 financial assistance to those who can not afford adequate care.
               </p>
               <a
@@ -357,7 +463,7 @@ export default function Home() {
               <h1 className="mb-5 text-5xl font-semibold text-center text-gray-900 md:text-6xl dark:text-gray-200">
                 Partnered with Leading Mental Health Non-Profits
               </h1>
-              <p className="mx-auto mt-2 text-base text-xl leading-relaxed text-gray-800 dark:text-gray-400 xl:w-2/4 lg:w-3/4">
+              <p className="mx-auto mt-2 text-base text-xl leading-relaxed text-gray-800 dark:text-gray-300 xl:w-2/4 lg:w-3/4">
                 We partner with some of the world's most impactful and dedicated
                 non-profit organizations. Together, we hope to build a better
                 future and eliminate stigmatization of mental health disorders.
