@@ -9,9 +9,9 @@ export default function Home() {
       <NextSeo
         title="Coast to Coast Mental Health Awareness"
         description="We create plans to solve the mental health crisis in New York and California."
-        canonical="https://c2cmha.vercel.app/locations/california"
+        canonical="https://c2cmha.vercel.app/locations/newyork"
         openGraph={{
-          url: "https://c2cmha.vercel.app/locations/california",
+          url: "https://c2cmha.vercel.app/locations/newyork",
           images: [{ url: "/images/image.jpg" }],
         }}
       />
@@ -376,8 +376,8 @@ export default function Home() {
               <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
                 reduce the stigma
               </span>{" "}
-              of mental health problems in California. With your help, we will
-              be able to help lower the numbers. Even{" "}
+              of mental health problems in New York. With your help, we will be
+              able to help lower the numbers. Even{" "}
               <span className="p-0.5 bg-lightBlue-100 rounded dark:bg-lightBlue-800">
                 a small donation
               </span>{" "}
